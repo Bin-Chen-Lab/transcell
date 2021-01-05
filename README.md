@@ -23,5 +23,5 @@ cat *.out | grep 'avg_transfer_meta' > avg_transfer_meta_ks5000.csv
 
 
 #### output
-The prediction results for each individual type of feature could be found unfer the folders.
+The prediction results for each individual type of feature could be found under the folders.
 
