@@ -1,0 +1,21 @@
+Unnamed: 0,avg_lasso_gscore,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+gene_effect_SMR3A,avg_lasso_gscore,0.146529,0.021571,0.353961,3.52E-04,0.363995,2.51E-04,0.109594
+gene_effect_SLC25A10,avg_lasso_gscore,0.155807,0.024372,0.24672,3.47E-02,0.236364,3.79E-02,0.033083
+gene_effect_SARNP,avg_lasso_gscore,0.180021,0.032511,0.479872,1.27E-06,0.454355,1.75E-05,0.211834
+gene_effect_MORN5,avg_lasso_gscore,0.122615,0.015256,0.263657,2.16E-02,0.216873,5.07E-02,0.050011
+gene_effect_FAS,avg_lasso_gscore,0.110444,0.012342,0.175182,2.43E-01,0.173608,1.65E-01,-0.006777
+gene_effect_SLC12A2,avg_lasso_gscore,0.150687,0.022814,0.175649,1.63E-01,0.141117,1.89E-01,0.016483
+gene_effect_ZNF394,avg_lasso_gscore,0.141084,0.01996,0.202084,1.83E-01,0.186248,2.18E-01,0.016279
+gene_effect_DLX4,avg_lasso_gscore,0.135505,0.018423,0.278935,7.05E-02,0.246863,9.45E-02,0.054899
+gene_effect_BRAT1,avg_lasso_gscore,0.249396,0.062436,0.669361,4.09E-15,0.667534,4.68E-14,0.387729
+gene_effect_ZNF547,avg_lasso_gscore,0.100658,0.010193,0.239204,4.96E-02,0.218321,2.00E-01,0.039911
+gene_effect_ZNF85,avg_lasso_gscore,0.137414,0.01917,0.272975,6.28E-03,0.240177,5.52E-02,0.054792
+gene_effect_IFRD1,avg_lasso_gscore,0.115443,0.013464,0.398982,1.14E-04,0.370615,7.49E-04,0.144829
+gene_effect_KIF18B,avg_lasso_gscore,0.249608,0.062831,0.593822,3.38E-10,0.525377,5.51E-08,0.323129
+gene_effect_PAGE2,avg_lasso_gscore,0.114059,0.013058,0.319717,3.25E-03,0.292402,6.51E-03,0.093277
+gene_effect_UHRF2,avg_lasso_gscore,0.124351,0.015557,0.169918,2.90E-01,0.129653,4.15E-01,0.018906
+gene_effect_IGF2BP3,avg_lasso_gscore,0.137854,0.019037,0.301603,2.27E-03,0.284301,8.02E-03,0.076236
+gene_effect_FOXN4,avg_lasso_gscore,0.142672,0.020474,0.215552,5.80E-02,0.231731,4.23E-02,0.032785
+gene_effect_LAMTOR4,avg_lasso_gscore,0.181481,0.032988,0.517831,1.25E-07,0.488557,8.38E-07,0.238902
+gene_effect_NEFH,avg_lasso_gscore,0.121371,0.014781,0.291229,2.75E-02,0.255471,4.33E-02,0.065387
+gene_effect_SPATA33,avg_lasso_gscore,0.116426,0.013626,0.254827,3.15E-02,0.252842,1.30E-02,0.04845

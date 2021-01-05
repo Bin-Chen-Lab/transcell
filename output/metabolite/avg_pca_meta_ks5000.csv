@@ -1,0 +1,21 @@
+Unnamed: 0,avg_pca_meta,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+metabolite_cotinine,avg_pca_meta,0.403088,0.162886,0.240553,1.40E-02,0.226335,1.04E-02,-0.010856
+metabolite_C46:2 TAG,avg_pca_meta,0.309343,0.096346,0.518544,4.72E-10,0.508641,2.07E-10,0.251917
+metabolite_fumarate/maleate/alpha-ketoisovalerate,avg_pca_meta,0.211454,0.044726,0.229893,3.75E-02,0.228952,4.70E-02,0.036123
+metabolite_threonine,avg_pca_meta,0.367525,0.135952,0.304782,1.94E-02,0.300791,1.79E-02,0.02815
+metabolite_proline,avg_pca_meta,0.253526,0.064391,0.283728,4.34E-03,0.328793,4.17E-05,0.029251
+metabolite_uracil,avg_pca_meta,0.313735,0.098578,0.501215,1.68E-10,0.447649,1.14E-07,0.223666
+metabolite_C18:0 LPE,avg_pca_meta,0.317123,0.100803,0.26415,2.39E-02,0.261992,1.71E-02,0.017317
+metabolite_trimethylamine-N-oxide,avg_pca_meta,0.255968,0.065611,0.380269,1.65E-03,0.387266,6.79E-05,0.127896
+metabolite_putrescine,avg_pca_meta,0.332849,0.111399,0.367643,8.20E-06,0.372245,4.07E-05,0.098295
+metabolite_phenylalanine,avg_pca_meta,0.378361,0.143555,0.474655,5.46E-07,0.461624,2.65E-06,0.200943
+metabolite_thyroxine,avg_pca_meta,0.234393,0.05497,0.37962,1.56E-04,0.323311,1.91E-03,0.118922
+metabolite_5-adenosylhomocysteine,avg_pca_meta,0.370711,0.137632,0.334611,6.27E-05,0.326537,7.73E-05,0.078212
+metabolite_C58:6 TAG,avg_pca_meta,0.451476,0.204825,0.509661,1.68E-11,0.451035,3.89E-09,0.230365
+metabolite_ornithine,avg_pca_meta,0.378811,0.143971,0.185515,3.67E-02,0.17172,7.67E-02,-0.017216
+metabolite_guanosine,avg_pca_meta,0.3741,0.140086,0.373318,1.10E-05,0.380553,5.10E-06,0.099443
+metabolite_glutathione reduced,avg_pca_meta,0.312434,0.098721,0.376734,1.53E-05,0.382951,3.62E-05,0.106583
+metabolite_lactose,avg_pca_meta,0.473038,0.224581,0.412834,6.39E-07,0.437305,6.39E-07,0.156174
+metabolite_adipate,avg_pca_meta,0.193749,0.037566,0.2018,1.54E-02,0.20056,3.20E-02,0.017436
+metabolite_C50:1 TAG,avg_pca_meta,0.389909,0.152326,0.428148,2.64E-08,0.418924,1.01E-06,0.14617
+metabolite_valine,avg_pca_meta,0.361276,0.130866,0.417626,1.90E-05,0.422095,1.22E-05,0.099521

@@ -1,0 +1,21 @@
+Unnamed: 0,avg_default_meta,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+metabolite_cotinine,avg_default_meta,0.433692,0.190705,0.275174,1.52E-03,0.249525,6.41E-03,-0.16672
+metabolite_C46:2 TAG,avg_default_meta,0.331872,0.110735,0.513038,1.45E-10,0.502757,2.07E-08,0.138124
+metabolite_fumarate/maleate/alpha-ketoisovalerate,avg_default_meta,0.24317,0.05964,0.208737,3.89E-02,0.227118,4.41E-02,-0.281121
+metabolite_threonine,avg_default_meta,0.373586,0.139922,0.332897,8.31E-03,0.336963,2.34E-03,-0.003994
+metabolite_proline,avg_default_meta,0.276699,0.076828,0.287046,3.03E-04,0.319595,2.46E-05,-0.169896
+metabolite_uracil,avg_default_meta,0.325219,0.106038,0.485882,2.21E-09,0.448386,6.32E-08,0.161977
+metabolite_C18:0 LPE,avg_default_meta,0.371704,0.139004,0.232336,5.33E-02,0.228427,5.73E-02,-0.389368
+metabolite_trimethylamine-N-oxide,avg_default_meta,0.277919,0.077542,0.372465,5.47E-05,0.377562,2.63E-06,-0.026559
+metabolite_putrescine,avg_default_meta,0.34735,0.121542,0.433704,9.70E-08,0.418926,1.32E-06,0.014416
+metabolite_phenylalanine,avg_default_meta,0.403917,0.164472,0.46565,2.69E-06,0.470773,3.07E-06,0.082795
+metabolite_thyroxine,avg_default_meta,0.263288,0.069985,0.368297,5.96E-05,0.311148,1.49E-03,-0.112593
+metabolite_5-adenosylhomocysteine,avg_default_meta,0.416373,0.17444,0.300959,6.49E-04,0.277586,4.67E-04,-0.164777
+metabolite_C58:6 TAG,avg_default_meta,0.47639,0.230066,0.540666,7.01E-13,0.503086,1.63E-11,0.142215
+metabolite_ornithine,avg_default_meta,0.435975,0.193404,0.163971,1.18E-01,0.135246,2.76E-01,-0.351955
+metabolite_guanosine,avg_default_meta,0.419352,0.178047,0.328816,1.10E-03,0.347936,1.16E-04,-0.140318
+metabolite_glutathione reduced,avg_default_meta,0.348394,0.12193,0.388658,1.14E-04,0.3965,1.83E-04,-0.141806
+metabolite_lactose,avg_default_meta,0.501554,0.252618,0.410572,1.06E-07,0.430336,1.49E-06,0.049443
+metabolite_adipate,avg_default_meta,0.224454,0.051124,0.149404,5.49E-02,0.132167,1.25E-01,-0.323613
+metabolite_C50:1 TAG,avg_default_meta,0.407482,0.1662,0.416426,3.86E-08,0.411159,2.14E-07,0.062996
+metabolite_valine,avg_default_meta,0.381767,0.14588,0.400678,8.68E-05,0.418178,1.63E-05,-0.004748

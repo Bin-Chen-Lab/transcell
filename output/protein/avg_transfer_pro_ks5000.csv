@@ -1,0 +1,21 @@
+Unnamed: 0,avg_transfer_pro,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+protein_CD31,avg_transfer_pro,0.240594,0.060998,0.712561,2.39E-14,0.644057,7.58E-08,0.435296
+protein_GAPDH_Caution,avg_transfer_pro,0.695906,0.522284,0.705012,1.36E-07,0.708099,1.94E-07,0.48087
+protein_p27_pT157_Caution,avg_transfer_pro,0.126994,0.016959,0.633579,1.42E-04,0.630469,6.44E-05,0.36631
+protein_Gab2,avg_transfer_pro,0.686068,0.49943,0.84831,5.94E-21,0.851791,4.61E-18,0.66122
+protein_Chk1_pS345_Caution,avg_transfer_pro,0.182879,0.03705,0.79285,5.64E-18,0.737154,1.93E-12,0.62922
+protein_Claudin-7,avg_transfer_pro,0.951133,0.916584,0.935461,4.05E-53,0.827802,9.56E-27,0.664844
+protein_YB-1_pS102,avg_transfer_pro,0.265191,0.077235,0.770311,1.27E-14,0.782088,7.85E-17,0.575623
+protein_Src_pY527,avg_transfer_pro,0.396576,0.173881,0.807798,1.12E-20,0.79779,1.38E-18,0.636194
+protein_Myosin IIa pS1943,avg_transfer_pro,0.73784,0.561591,0.76648,6.62E-22,0.77453,1.07E-22,0.540605
+protein_Notch1,avg_transfer_pro,0.366918,0.14313,0.765089,7.11E-15,0.80334,5.00E-16,0.538368
+protein_FASN,avg_transfer_pro,0.469231,0.232318,0.819441,1.57E-32,0.826998,1.43E-24,0.652756
+protein_MDM2_pS166,avg_transfer_pro,0.410009,0.183635,0.695958,2.90E-05,0.694174,5.27E-05,0.463617
+protein_EGFR,avg_transfer_pro,0.704487,0.5056,0.877924,1.09E-44,0.909065,6.20E-52,0.54506
+protein_GSK3-alpha-beta,avg_transfer_pro,0.189065,0.0383,0.796702,6.64E-14,0.800343,2.04E-11,0.621832
+protein_BRCA2_Caution,avg_transfer_pro,0.151133,0.024558,0.809604,8.74E-22,0.789262,6.22E-21,0.618857
+protein_mTOR,avg_transfer_pro,0.483652,0.234814,0.527836,1.05E-07,0.560894,5.40E-09,-0.152679
+protein_eEF2_Caution,avg_transfer_pro,0.453104,0.229587,0.737589,7.60E-10,0.72437,2.99E-10,0.528373
+protein_MSH6_Caution,avg_transfer_pro,0.446437,0.240474,0.785287,4.04E-15,0.817605,2.12E-21,0.577772
+protein_p27_pT198,avg_transfer_pro,0.448766,0.202881,0.684418,3.60E-16,0.465137,6.91E-09,-1.342021
+protein_JAK2,avg_transfer_pro,0.296224,0.093049,0.740109,6.96E-16,0.731612,2.29E-16,0.428384

@@ -1,0 +1,21 @@
+Unnamed: 0,avg_default_mu,AUC_avg,Precision_avg,Recall_avg,F1_avg
+mutation_TTN,avg_default_mu,0.641435,0.6421,0.634319,0.593236
+mutation_USH2A,avg_default_mu,0.575284,0.65153,0.720546,0.675779
+mutation_CSMD3,avg_default_mu,0.605404,0.700714,0.703136,0.691347
+mutation_MT-CYB,avg_default_mu,0.571637,0.524379,0.584713,0.503092
+mutation_DST,avg_default_mu,0.573224,0.699385,0.699869,0.67036
+mutation_MUC4,avg_default_mu,0.493672,0.620043,0.721442,0.656128
+mutation_FLG,avg_default_mu,0.524988,0.637863,0.720619,0.659279
+mutation_KMT2D,avg_default_mu,0.598679,0.713868,0.733921,0.698621
+mutation_HMCN1,avg_default_mu,0.587088,0.645088,0.754623,0.683203
+mutation_ABCA13,avg_default_mu,0.618178,0.699432,0.743064,0.697745
+mutation_GPR98,avg_default_mu,0.583149,0.720932,0.782863,0.705783
+mutation_TP53,avg_default_mu,0.852521,0.806683,0.801259,0.790958
+mutation_MUC16,avg_default_mu,0.576896,0.579805,0.534464,0.521653
+mutation_OBSCN,avg_default_mu,0.536495,0.615076,0.621767,0.581493
+mutation_LRP1B,avg_default_mu,0.563825,0.670496,0.633295,0.616874
+mutation_RYR2,avg_default_mu,0.589331,0.690988,0.558755,0.519862
+mutation_SYNE1,avg_default_mu,0.539201,0.648525,0.732967,0.678196
+mutation_PCLO,avg_default_mu,0.616833,0.668431,0.610954,0.582809
+mutation_ZFHX4,avg_default_mu,0.543795,0.697005,0.727998,0.685049
+mutation_MT-ND5,avg_default_mu,0.528893,0.679397,0.616113,0.550109

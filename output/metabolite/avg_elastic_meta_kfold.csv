@@ -1,0 +1,21 @@
+Unnamed: 0,avg_elastic_meta,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+metabolite_cotinine,avg_elastic_meta,0.343652,0.118117,0.521549,7.89E-11,0.485525,6.21E-07,0.262564
+metabolite_C46:2 TAG,avg_elastic_meta,0.271386,0.074275,0.657911,1.16E-20,0.647057,1.76E-19,0.423989
+metabolite_fumarate/maleate/alpha-ketoisovalerate,avg_elastic_meta,0.196623,0.038741,0.411106,2.82E-07,0.401139,1.39E-06,0.168267
+metabolite_threonine,avg_elastic_meta,0.300968,0.090773,0.594198,2.15E-16,0.595184,2.11E-16,0.349022
+metabolite_proline,avg_elastic_meta,0.228932,0.052505,0.469897,6.35E-09,0.488357,1.41E-10,0.207916
+metabolite_uracil,avg_elastic_meta,0.270575,0.073527,0.654021,6.02E-18,0.626449,6.56E-15,0.419798
+metabolite_C18:0 LPE,avg_elastic_meta,0.273123,0.074774,0.529438,2.39E-11,0.50946,2.20E-11,0.273147
+metabolite_trimethylamine-N-oxide,avg_elastic_meta,0.223901,0.050216,0.582079,2.59E-12,0.543395,1.74E-12,0.333278
+metabolite_putrescine,avg_elastic_meta,0.282804,0.08045,0.602955,1.81E-16,0.571041,3.83E-14,0.349237
+metabolite_phenylalanine,avg_elastic_meta,0.303386,0.092305,0.695997,1.47E-20,0.680384,5.45E-19,0.485428
+metabolite_thyroxine,avg_elastic_meta,0.215096,0.046321,0.51766,2.07E-11,0.485148,7.87E-10,0.260483
+metabolite_5-adenosylhomocysteine,avg_elastic_meta,0.323194,0.104533,0.551919,5.73E-15,0.511751,2.74E-12,0.299972
+metabolite_C58:6 TAG,avg_elastic_meta,0.353377,0.124958,0.728938,1.70E-28,0.708408,1.73E-27,0.527442
+metabolite_ornithine,avg_elastic_meta,0.330364,0.10939,0.482039,2.51E-11,0.436542,1.54E-09,0.225381
+metabolite_guanosine,avg_elastic_meta,0.322048,0.103768,0.579369,7.26E-14,0.585959,1.33E-14,0.332403
+metabolite_glutathione reduced,avg_elastic_meta,0.271008,0.073776,0.588924,8.25E-12,0.578708,5.79E-10,0.313705
+metabolite_lactose,avg_elastic_meta,0.394461,0.15605,0.647197,1.28E-20,0.625848,3.22E-15,0.412972
+metabolite_adipate,avg_elastic_meta,0.180143,0.03248,0.392173,5.49E-06,0.363408,5.76E-05,0.150254
+metabolite_C50:1 TAG,avg_elastic_meta,0.324364,0.105338,0.647403,1.97E-18,0.624325,1.90E-19,0.407339
+metabolite_valine,avg_elastic_meta,0.293322,0.086146,0.643736,4.49E-19,0.646739,2.04E-20,0.410284

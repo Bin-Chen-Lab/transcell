@@ -1,0 +1,21 @@
+Unnamed: 0,avg_default_gscore,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+gene_effect_SMR3A,avg_default_gscore,0.169588,0.028812,0.078438,4.49E-01,0.121401,2.57E-01,-0.203061
+gene_effect_SLC25A10,avg_default_gscore,0.180788,0.032756,0.029478,6.11E-01,0.03428,5.46E-01,-0.333182
+gene_effect_SARNP,avg_default_gscore,0.235016,0.055447,0.204077,1.28E-01,0.19697,1.36E-01,-0.352482
+gene_effect_MORN5,avg_default_gscore,0.134731,0.018674,0.127411,2.60E-01,0.08082,4.11E-01,-0.139085
+gene_effect_FAS,avg_default_gscore,0.139071,0.020127,0.057441,5.92E-01,0.067002,5.19E-01,-0.795921
+gene_effect_SLC12A2,avg_default_gscore,0.181544,0.033065,-0.003106,4.01E-01,-0.008329,4.20E-01,-0.477655
+gene_effect_ZNF394,avg_default_gscore,0.157032,0.024775,0.068752,3.58E-01,0.079814,4.75E-01,-0.232303
+gene_effect_DLX4,avg_default_gscore,0.160903,0.026029,0.12918,1.04E-01,0.122915,1.92E-01,-0.335392
+gene_effect_BRAT1,avg_default_gscore,0.356557,0.129879,0.272697,3.84E-02,0.274047,1.86E-02,-0.278646
+gene_effect_ZNF547,avg_default_gscore,0.113965,0.013033,0.059945,5.58E-01,0.016361,6.66E-01,-0.249497
+gene_effect_ZNF85,avg_default_gscore,0.16289,0.02732,0.176317,1.37E-01,0.175197,9.13E-02,-0.340458
+gene_effect_IFRD1,avg_default_gscore,0.135792,0.018559,0.141854,2.54E-01,0.117499,2.73E-01,-0.191549
+gene_effect_KIF18B,avg_default_gscore,0.324509,0.106547,0.328785,3.64E-03,0.298312,7.48E-03,-0.155577
+gene_effect_PAGE2,avg_default_gscore,0.131067,0.017305,0.173939,1.02E-01,0.154319,1.46E-01,-0.207124
+gene_effect_UHRF2,avg_default_gscore,0.140444,0.019884,0.014841,4.07E-01,-0.009521,2.92E-01,-0.258946
+gene_effect_IGF2BP3,avg_default_gscore,0.167462,0.028105,0.027885,6.11E-01,0.031664,6.16E-01,-0.368263
+gene_effect_FOXN4,avg_default_gscore,0.160237,0.025911,0.034083,5.67E-01,0.061987,5.41E-01,-0.223446
+gene_effect_LAMTOR4,avg_default_gscore,0.211229,0.044728,0.279828,1.69E-02,0.29287,6.56E-03,-0.031427
+gene_effect_NEFH,avg_default_gscore,0.133325,0.017823,0.16086,2.11E-01,0.157043,2.60E-01,-0.134415
+gene_effect_SPATA33,avg_default_gscore,0.132262,0.017589,0.104704,2.82E-01,0.11632,2.14E-01,-0.229861

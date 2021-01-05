@@ -1,0 +1,21 @@
+Unnamed: 0,avg_transfer_meta,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+metabolite_cotinine,avg_transfer_meta,0.307096,0.107422,0.737892,3.97E-06,0.713063,2.09E-05,0.350306
+metabolite_C46:2 TAG,avg_transfer_meta,0.204422,0.049718,0.834223,9.85E-18,0.824672,3.07E-21,0.601918
+metabolite_fumarate/maleate/alpha-ketoisovalerate,avg_transfer_meta,0.152887,0.025726,0.679298,9.69E-07,0.675898,1.98E-08,0.432911
+metabolite_threonine,avg_transfer_meta,0.258219,0.074053,0.734385,1.73E-07,0.730624,1.02E-07,0.471645
+metabolite_proline,avg_transfer_meta,0.166482,0.032804,0.739669,2.27E-05,0.729089,1.40E-05,0.497164
+metabolite_uracil,avg_transfer_meta,0.202607,0.048847,0.83732,3.56E-16,0.818548,8.48E-19,0.641681
+metabolite_C18:0 LPE,avg_transfer_meta,0.213168,0.051998,0.675257,1.20E-01,0.672004,1.07E-01,0.44855
+metabolite_trimethylamine-N-oxide,avg_transfer_meta,0.157838,0.030585,0.780792,1.91E-08,0.737512,7.60E-10,0.593566
+metabolite_putrescine,avg_transfer_meta,0.206203,0.05034,0.795887,9.32E-13,0.778753,8.77E-14,0.607883
+metabolite_phenylalanine,avg_transfer_meta,0.278484,0.086278,0.794602,6.93E-18,0.787296,2.88E-18,0.53767
+metabolite_thyroxine,avg_transfer_meta,0.181277,0.04166,0.764817,4.81E-09,0.738418,2.09E-08,0.379343
+metabolite_5-adenosylhomocysteine,avg_transfer_meta,0.246442,0.07346,0.735088,1.21E-06,0.723063,1.11E-05,0.514599
+metabolite_C58:6 TAG,avg_transfer_meta,0.253766,0.081967,0.834559,4.25E-17,0.82059,2.45E-14,0.703604
+metabolite_ornithine,avg_transfer_meta,0.246426,0.069481,0.692743,8.47E-03,0.691536,1.28E-02,0.478142
+metabolite_guanosine,avg_transfer_meta,0.249243,0.076446,0.726429,1.06E-03,0.740204,8.47E-05,0.47842
+metabolite_glutathione reduced,avg_transfer_meta,0.200691,0.046585,0.748688,2.23E-06,0.739607,1.94E-06,0.533322
+metabolite_lactose,avg_transfer_meta,0.326358,0.116815,0.783044,2.50E-11,0.755218,4.85E-12,0.555151
+metabolite_adipate,avg_transfer_meta,0.131458,0.019112,0.718626,1.59E-04,0.689408,1.66E-04,0.498916
+metabolite_C50:1 TAG,avg_transfer_meta,0.303012,0.10348,0.760324,4.73E-08,0.746048,7.27E-08,0.414772
+metabolite_valine,avg_transfer_meta,0.266653,0.086221,0.760972,7.66E-12,0.771228,6.44E-13,0.414041

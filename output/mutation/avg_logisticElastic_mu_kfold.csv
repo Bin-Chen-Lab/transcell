@@ -1,0 +1,21 @@
+Unnamed: 0,avg_logisticElastic_mu,F1_avg,AUC_avg,Precision_avg,Recall_avg
+mutation_TTN,avg_logisticElastic_mu,0.94073,0.989443,0.946986,0.941017
+mutation_USH2A,avg_logisticElastic_mu,0.946893,0.994031,0.950284,0.948447
+mutation_CSMD3,avg_logisticElastic_mu,0.947693,0.993613,0.953608,0.949236
+mutation_MT-CYB,avg_logisticElastic_mu,0.954526,0.99421,0.958525,0.955954
+mutation_DST,avg_logisticElastic_mu,0.941011,0.992389,0.94663,0.943468
+mutation_MUC4,avg_logisticElastic_mu,0.92226,0.986877,0.929373,0.926867
+mutation_FLG,avg_logisticElastic_mu,0.942052,0.989509,0.947754,0.944298
+mutation_KMT2D,avg_logisticElastic_mu,0.945399,0.997076,0.953173,0.948444
+mutation_HMCN1,avg_logisticElastic_mu,0.958555,0.990297,0.962229,0.96008
+mutation_ABCA13,avg_logisticElastic_mu,0.931793,0.99129,0.938058,0.935135
+mutation_GPR98,avg_logisticElastic_mu,0.948414,0.995639,0.954207,0.950916
+mutation_TP53,avg_logisticElastic_mu,0.958213,0.994296,0.958683,0.958454
+mutation_MUC16,avg_logisticElastic_mu,0.951477,0.989047,0.952792,0.951788
+mutation_OBSCN,avg_logisticElastic_mu,0.940744,0.993636,0.945636,0.942621
+mutation_LRP1B,avg_logisticElastic_mu,0.948305,0.987423,0.95154,0.949263
+mutation_RYR2,avg_logisticElastic_mu,0.942251,0.994244,0.947514,0.944291
+mutation_SYNE1,avg_logisticElastic_mu,0.948542,0.992469,0.954073,0.950073
+mutation_PCLO,avg_logisticElastic_mu,0.946902,0.993908,0.950017,0.948444
+mutation_ZFHX4,avg_logisticElastic_mu,0.943827,0.989438,0.950299,0.94593
+mutation_MT-ND5,avg_logisticElastic_mu,0.954864,0.991911,0.95779,0.955951

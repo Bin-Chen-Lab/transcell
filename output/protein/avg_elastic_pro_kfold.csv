@@ -1,0 +1,21 @@
+Unnamed: 0,avg_elastic_pro,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+protein_CD31,avg_elastic_pro,0.209189,0.043889,0.752884,1.14E-21,0.662331,1.72E-19,0.562081
+protein_GAPDH_Caution,avg_elastic_pro,0.475758,0.226432,0.882687,5.48E-50,0.871909,6.56E-47,0.776257
+protein_p27_pT157_Caution,avg_elastic_pro,0.143062,0.020476,0.517981,9.95E-12,0.511147,3.50E-12,0.259521
+protein_Gab2,avg_elastic_pro,0.336289,0.113565,0.962026,9.49E-96,0.959201,2.89E-92,0.922706
+protein_Chk1_pS345_Caution,avg_elastic_pro,0.193917,0.037746,0.782221,1.43E-36,0.715298,1.06E-25,0.605134
+protein_Claudin-7,avg_elastic_pro,0.441606,0.195453,0.964351,6.13E-100,0.893152,2.05E-51,0.928796
+protein_YB-1_pS102,avg_elastic_pro,0.245379,0.060346,0.815999,5.96E-37,0.781869,6.45E-32,0.658016
+protein_Src_pY527,avg_elastic_pro,0.326116,0.106375,0.879503,5.86E-49,0.862905,2.23E-48,0.769248
+protein_Myosin IIa pS1943,avg_elastic_pro,0.497289,0.247964,0.893791,1.15E-53,0.877288,2.43E-46,0.796933
+protein_Notch1,avg_elastic_pro,0.26451,0.070015,0.878445,3.28E-54,0.862166,7.94E-48,0.768123
+protein_FASN,avg_elastic_pro,0.351934,0.12401,0.900977,2.90E-57,0.883126,9.87E-55,0.806683
+protein_MDM2_pS166,avg_elastic_pro,0.3897,0.152209,0.773295,7.27E-31,0.74343,1.05E-26,0.582462
+protein_EGFR,avg_elastic_pro,0.289836,0.084192,0.962252,7.34E-90,0.957596,5.02E-90,0.924763
+protein_GSK3-alpha-beta,avg_elastic_pro,0.20352,0.041589,0.783636,3.34E-29,0.744236,2.13E-22,0.605324
+protein_BRCA2_Caution,avg_elastic_pro,0.159145,0.025338,0.775231,4.77E-32,0.744772,2.02E-25,0.596374
+protein_mTOR,avg_elastic_pro,0.29586,0.087638,0.770776,2.49E-34,0.74628,1.51E-31,0.573943
+protein_eEF2_Caution,avg_elastic_pro,0.41201,0.170194,0.803038,6.20E-35,0.779802,1.35E-30,0.632342
+protein_MSH6_Caution,avg_elastic_pro,0.341657,0.123454,0.87921,1.47E-54,0.861134,4.20E-48,0.754196
+protein_p27_pT198,avg_elastic_pro,0.187671,0.035555,0.79762,1.78E-32,0.627083,1.26E-17,0.613247
+protein_JAK2,avg_elastic_pro,0.219692,0.048525,0.843197,9.76E-40,0.795347,2.54E-37,0.706755

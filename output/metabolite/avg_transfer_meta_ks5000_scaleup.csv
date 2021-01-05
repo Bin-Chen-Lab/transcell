@@ -1,0 +1,224 @@
+Unnamed: 0,avg_transfer_meta,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+metabolite_2-aminoadipate,avg_transfer_meta,0.214733,0.050749,0.74047,2.47E-07,0.705705,1.13E-05,0.498526
+metabolite_acetylcholine,avg_transfer_meta,0.707617,0.55273,0.666098,9.15E-03,0.636757,3.11E-02,0.350119
+metabolite_creatine,avg_transfer_meta,0.215998,0.055629,0.804258,2.25E-10,0.801615,8.76E-13,0.583409
+metabolite_creatinine,avg_transfer_meta,0.201041,0.04626,0.803284,1.50E-19,0.741579,2.69E-17,0.510762
+metabolite_thyroxine,avg_transfer_meta,0.179747,0.034832,0.765454,1.89E-10,0.746495,9.91E-11,0.466128
+metabolite_trimethylamine-N-oxide,avg_transfer_meta,0.176117,0.03506,0.782723,2.67E-08,0.746498,3.82E-10,0.530608
+metabolite_adenosine,avg_transfer_meta,0.408251,0.1895,0.705418,1.27E-04,0.699053,3.23E-06,0.405355
+metabolite_thymidine,avg_transfer_meta,0.392452,0.173569,0.754174,1.93E-07,0.77279,5.65E-09,0.430362
+metabolite_xanthosine,avg_transfer_meta,0.15699,0.029078,0.7844,5.27E-08,0.768964,5.98E-10,0.598705
+metabolite_2-deoxyadenosine,avg_transfer_meta,0.29661,0.106815,0.787683,2.31E-08,0.778559,9.41E-08,0.602019
+metabolite_isocitrate,avg_transfer_meta,0.194814,0.04758,0.730942,5.78E-04,0.729695,2.60E-05,0.545997
+metabolite_2-deoxycytidine,avg_transfer_meta,0.372429,0.176997,0.814364,2.00E-14,0.809558,5.87E-13,0.651994
+metabolite_cAMP,avg_transfer_meta,0.192549,0.042867,0.738473,4.20E-06,0.711722,9.64E-07,0.539678
+metabolite_cotinine,avg_transfer_meta,0.276912,0.08806,0.73995,3.69E-07,0.724459,1.66E-07,0.472754
+metabolite_pipecolic acid,avg_transfer_meta,0.36164,0.153317,0.683825,9.06E-02,0.676981,1.28E-01,0.443415
+metabolite_pyroglutamic acid,avg_transfer_meta,0.241387,0.067366,0.798057,2.66E-12,0.784127,6.50E-14,0.582904
+metabolite_1-methylnicotinamide,avg_transfer_meta,0.570456,0.377999,0.909721,2.96E-50,0.889069,2.39E-41,0.788629
+metabolite_butyrobetaine,avg_transfer_meta,0.200216,0.048396,0.744518,1.54E-05,0.741672,8.73E-06,0.502725
+metabolite_putrescine,avg_transfer_meta,0.225247,0.05596,0.791142,1.16E-11,0.766143,1.10E-11,0.556723
+metabolite_methionine sulfoxide,avg_transfer_meta,0.208969,0.050571,0.758487,1.22E-11,0.747318,1.09E-11,0.536706
+metabolite_carnitine,avg_transfer_meta,0.203784,0.048163,0.801491,3.25E-15,0.788601,2.23E-14,0.570567
+metabolite_CMP,avg_transfer_meta,0.268501,0.090551,0.81485,1.83E-16,0.740345,4.88E-10,0.580815
+metabolite_acetylcarnitine,avg_transfer_meta,0.238657,0.064472,0.783091,2.00E-07,0.779202,2.46E-08,0.597044
+metabolite_propionylcarnitine,avg_transfer_meta,0.278189,0.089446,0.708873,5.69E-04,0.714581,4.10E-04,0.500222
+metabolite_malonylcarnitine,avg_transfer_meta,0.233066,0.062856,0.774856,1.33E-07,0.760104,4.02E-07,0.580756
+metabolite_butyrylcarnitine/isobutyrylcarnitine,avg_transfer_meta,0.32145,0.122715,0.758404,1.97E-04,0.76007,2.00E-05,0.417488
+metabolite_valerylcarnitine/isovalerylcarnitine/2-methylbutyroylcarnitine,avg_transfer_meta,0.306455,0.123256,0.754081,4.23E-04,0.751689,1.94E-03,0.562358
+metabolite_hexanoylcarnitine,avg_transfer_meta,0.217646,0.057026,0.740983,9.13E-06,0.718658,1.15E-05,0.456971
+metabolite_heptanoylcarnitine,avg_transfer_meta,0.207179,0.050381,0.701,5.68E-04,0.690303,2.73E-04,0.434581
+metabolite_lauroylcarnitine,avg_transfer_meta,0.309961,0.102703,0.785614,1.48E-14,0.741211,1.97E-11,0.476143
+metabolite_myristoylcarnitine,avg_transfer_meta,0.346117,0.13434,0.766966,1.21E-11,0.742266,3.23E-10,0.553259
+metabolite_palmitoylcarnitine,avg_transfer_meta,0.41384,0.183873,0.7708,2.86E-10,0.754394,4.87E-10,0.559526
+metabolite_cystathionine,avg_transfer_meta,0.324744,0.127627,0.791593,2.10E-13,0.784535,5.28E-13,0.585447
+metabolite_stearoylcarnitine,avg_transfer_meta,0.357426,0.149051,0.741802,5.46E-06,0.725107,2.48E-05,0.555125
+metabolite_oleylcarnitine,avg_transfer_meta,0.365401,0.149217,0.757748,4.77E-09,0.743904,4.29E-09,0.556413
+metabolite_arachidonyl_carnitine,avg_transfer_meta,0.170005,0.035323,0.803069,2.67E-12,0.776122,1.47E-11,0.578537
+metabolite_sarcosine,avg_transfer_meta,0.190677,0.041009,0.718002,6.93E-03,0.706139,2.24E-03,0.354616
+metabolite_beta-alanine,avg_transfer_meta,0.218449,0.058164,0.752789,2.84E-05,0.754132,1.69E-05,0.551608
+metabolite_anserine,avg_transfer_meta,0.171412,0.032396,0.703817,1.59E-08,0.693801,3.68E-10,0.430212
+metabolite_C14:0 LPC,avg_transfer_meta,0.188861,0.04054,0.698555,2.44E-04,0.708284,3.96E-06,0.379827
+metabolite_C16:1 LPC,avg_transfer_meta,0.193037,0.039925,0.677175,2.26E-03,0.666507,3.93E-03,0.300583
+metabolite_C16:0 LPC,avg_transfer_meta,0.195387,0.042946,0.713575,2.97E-06,0.701951,8.66E-06,0.425353
+metabolite_C18:2 LPC,avg_transfer_meta,0.215391,0.05157,0.662445,2.60E-04,0.651344,1.53E-04,0.286543
+metabolite_cytidine,avg_transfer_meta,0.354131,0.143516,0.78422,3.49E-08,0.769914,1.08E-07,0.532278
+metabolite_C18:1 LPC,avg_transfer_meta,0.179201,0.037845,0.778788,1.41E-10,0.750436,1.45E-10,0.407134
+metabolite_C18:0 LPC,avg_transfer_meta,0.223054,0.056769,0.718328,9.54E-05,0.704105,3.82E-04,0.465191
+metabolite_C20:4 LPC,avg_transfer_meta,0.142458,0.023977,0.697212,6.34E-03,0.670937,1.47E-03,0.470026
+metabolite_C20:3 LPC,avg_transfer_meta,0.203581,0.04846,0.697385,1.65E-04,0.689805,4.60E-04,0.454643
+metabolite_C22:6 LPC,avg_transfer_meta,0.198385,0.040662,0.690505,3.56E-06,0.667185,7.41E-06,0.273542
+metabolite_C16:0 LPE,avg_transfer_meta,0.224687,0.0583,0.672285,2.06E-03,0.675817,4.47E-04,0.43117
+metabolite_C18:1 LPE,avg_transfer_meta,0.203681,0.049092,0.66976,9.99E-03,0.667928,2.86E-03,0.326793
+metabolite_C18:0 LPE,avg_transfer_meta,0.20724,0.051373,0.681268,5.12E-02,0.680039,4.08E-02,0.452718
+metabolite_C20:4 LPE,avg_transfer_meta,0.183326,0.039326,0.680455,1.19E-04,0.653246,1.30E-04,0.348234
+metabolite_C22:6 LPE,avg_transfer_meta,0.297163,0.097965,0.664267,8.37E-05,0.658017,2.27E-04,0.402894
+metabolite_dCMP,avg_transfer_meta,0.210949,0.049132,0.77784,1.57E-13,0.765952,8.28E-15,0.486725
+metabolite_C32:2 PC,avg_transfer_meta,0.224814,0.05765,0.775107,4.15E-08,0.751372,1.80E-06,0.560578
+metabolite_C32:1 PC,avg_transfer_meta,0.170204,0.030929,0.70561,2.05E-08,0.683942,2.59E-08,0.186194
+metabolite_C32:0 PC,avg_transfer_meta,0.226406,0.053489,0.735687,6.99E-10,0.707994,9.15E-10,0.433566
+metabolite_C34:4 PC,avg_transfer_meta,0.159872,0.026893,0.770155,7.12E-10,0.747159,5.71E-10,0.523132
+metabolite_C34:3 PC,avg_transfer_meta,0.182792,0.036435,0.695788,1.16E-03,0.661692,8.20E-03,0.456826
+metabolite_C34:2 PC,avg_transfer_meta,0.10968,0.013714,0.700074,1.14E-03,0.659934,3.34E-03,0.512117
+metabolite_C34:1 PC,avg_transfer_meta,0.096041,0.01112,0.776912,1.40E-07,0.74836,2.13E-07,0.531915
+metabolite_C36:4 PC-A,avg_transfer_meta,0.17002,0.031555,0.756001,1.82E-10,0.743971,7.63E-11,0.529331
+metabolite_C36:4 PC-B,avg_transfer_meta,0.138231,0.021762,0.829065,9.54E-23,0.804451,6.30E-20,0.640868
+metabolite_C36:3 PC,avg_transfer_meta,0.134042,0.020325,0.727682,1.49E-09,0.679558,1.13E-07,0.460476
+metabolite_DHAP/glyceraldehyde 3P,avg_transfer_meta,0.247334,0.076112,0.771713,2.68E-10,0.764431,7.31E-09,0.414644
+metabolite_C36:2 PC,avg_transfer_meta,0.098631,0.011968,0.749173,3.67E-05,0.728187,9.92E-05,0.548013
+metabolite_C36:1 PC,avg_transfer_meta,0.156287,0.028183,0.76414,2.99E-05,0.736201,8.60E-05,0.475903
+metabolite_C38:6 PC,avg_transfer_meta,0.190739,0.039233,0.799919,2.13E-14,0.782371,4.28E-15,0.501767
+metabolite_C38:5 PC,avg_transfer_meta,0.155677,0.02754,0.824166,9.64E-20,0.799406,3.94E-19,0.632963
+metabolite_C38:4 PC,avg_transfer_meta,0.113681,0.015108,0.854368,2.66E-24,0.815251,1.75E-20,0.711335
+metabolite_C38:2 PC,avg_transfer_meta,0.217939,0.058064,0.71172,4.03E-04,0.697002,9.05E-04,0.316419
+metabolite_C40:6 PC,avg_transfer_meta,0.154252,0.028466,0.832168,2.29E-17,0.810604,4.84E-17,0.689236
+metabolite_C14:0 SM,avg_transfer_meta,0.129029,0.018314,0.716865,2.19E-03,0.701106,3.59E-03,0.444291
+metabolite_C16:1 SM,avg_transfer_meta,0.106418,0.013656,0.737044,5.45E-04,0.731158,4.71E-04,0.532275
+metabolite_C16:0 SM,avg_transfer_meta,0.15023,0.02585,0.749612,2.82E-11,0.722374,1.56E-09,0.548559
+metabolite_erythrose-4-phosphate,avg_transfer_meta,0.21008,0.04795,0.688996,1.39E-04,0.670916,2.12E-03,0.302556
+metabolite_C18:2 SM,avg_transfer_meta,0.207452,0.050099,0.753778,1.72E-07,0.734799,5.99E-08,0.445815
+metabolite_C18:1 SM,avg_transfer_meta,0.150705,0.026154,0.71056,2.43E-03,0.700473,4.92E-03,0.50098
+metabolite_C18:0 SM,avg_transfer_meta,0.223358,0.061248,0.747582,8.73E-06,0.740312,7.70E-06,0.507698
+metabolite_C22:1 SM,avg_transfer_meta,0.123294,0.01723,0.737506,8.50E-07,0.724852,2.57E-06,0.46064
+metabolite_C22:0 SM,avg_transfer_meta,0.123317,0.018813,0.752629,6.50E-07,0.739499,1.45E-07,0.42482
+metabolite_C24:1 SM,avg_transfer_meta,0.212277,0.048704,0.744787,1.98E-07,0.725009,7.12E-07,0.425099
+metabolite_C24:0 SM,avg_transfer_meta,0.22489,0.058379,0.760554,9.79E-11,0.742493,8.53E-09,0.544445
+metabolite_C34:2 DAG,avg_transfer_meta,0.332463,0.126438,0.766856,1.20E-08,0.749709,3.01E-08,0.545343
+metabolite_C34:1 DAG,avg_transfer_meta,0.225359,0.059193,0.727407,5.33E-05,0.730577,7.20E-05,0.502198
+metabolite_C36:2 DAG,avg_transfer_meta,0.221815,0.056257,0.71495,8.66E-04,0.714715,1.35E-04,0.493567
+metabolite_F1P/F6P/G1P/G6P,avg_transfer_meta,0.208576,0.04973,0.769584,1.65E-11,0.757042,6.22E-10,0.567315
+metabolite_C36:1 DAG,avg_transfer_meta,0.176271,0.035201,0.73904,1.08E-04,0.73402,1.60E-04,0.493169
+metabolite_C14:0 CE,avg_transfer_meta,0.145238,0.025262,0.755344,6.83E-06,0.720594,4.23E-05,0.523747
+metabolite_C16:1 CE,avg_transfer_meta,0.17385,0.036274,0.854016,8.76E-25,0.808611,1.24E-20,0.6598
+metabolite_C16:0 CE,avg_transfer_meta,0.161811,0.032936,0.832574,1.30E-23,0.763766,3.30E-18,0.604059
+metabolite_C18:3 CE,avg_transfer_meta,0.197124,0.046242,0.804081,2.89E-18,0.767153,1.01E-17,0.546197
+metabolite_C18:2 CE,avg_transfer_meta,0.209285,0.051768,0.843473,1.57E-24,0.799117,1.15E-21,0.675636
+metabolite_C18:1 CE,avg_transfer_meta,0.151685,0.02876,0.871007,7.37E-26,0.832972,2.03E-24,0.735441
+metabolite_C18:0 CE,avg_transfer_meta,0.206588,0.046408,0.747335,2.15E-08,0.713262,5.79E-09,0.511593
+metabolite_C20:5 CE,avg_transfer_meta,0.21481,0.051145,0.854265,2.38E-28,0.817778,5.03E-28,0.626703
+metabolite_C20:4 CE,avg_transfer_meta,0.22379,0.056978,0.858325,1.71E-30,0.807415,1.99E-26,0.656014
+metabolite_C20:3 CE,avg_transfer_meta,0.211064,0.048564,0.829871,6.41E-21,0.821901,1.49E-21,0.600613
+metabolite_C22:6 CE,avg_transfer_meta,0.20162,0.044696,0.842286,6.53E-21,0.83134,1.28E-22,0.642228
+metabolite_C46:2 TAG,avg_transfer_meta,0.210238,0.047389,0.83992,1.14E-17,0.824933,3.63E-20,0.623756
+metabolite_C46:1 TAG,avg_transfer_meta,0.249419,0.068253,0.810862,6.31E-18,0.810486,6.62E-21,0.643749
+metabolite_C46:0 TAG,avg_transfer_meta,0.212037,0.051381,0.776712,6.89E-10,0.770405,6.53E-12,0.532613
+metabolite_C48:3 TAG,avg_transfer_meta,0.275913,0.094296,0.796284,4.12E-10,0.779675,6.79E-10,0.636658
+metabolite_C48:2 TAG,avg_transfer_meta,0.243202,0.066565,0.844525,5.23E-24,0.845429,7.57E-27,0.646016
+metabolite_C48:1 TAG,avg_transfer_meta,0.311378,0.115821,0.784943,3.00E-11,0.769557,2.31E-10,0.490582
+metabolite_C48:0 TAG,avg_transfer_meta,0.299019,0.107016,0.733079,2.78E-07,0.718623,1.66E-06,0.503098
+metabolite_C50:3 TAG,avg_transfer_meta,0.239304,0.061825,0.828259,1.86E-20,0.821147,2.47E-20,0.623464
+metabolite_fumarate/maleate/alpha-ketoisovalerate,avg_transfer_meta,0.161553,0.02955,0.676965,2.53E-08,0.668334,6.93E-08,0.351829
+metabolite_3-phosphoglycerate,avg_transfer_meta,0.183986,0.039879,0.773734,4.87E-09,0.778934,1.43E-10,0.595842
+metabolite_C50:2 TAG,avg_transfer_meta,0.213583,0.0571,0.827053,5.18E-16,0.823564,5.36E-16,0.616994
+metabolite_C50:1 TAG,avg_transfer_meta,0.280549,0.086196,0.755098,7.62E-08,0.740007,2.62E-07,0.504108
+metabolite_C50:0 TAG,avg_transfer_meta,0.367631,0.145931,0.720599,3.09E-06,0.72318,2.97E-06,0.300659
+metabolite_C52:5 TAG,avg_transfer_meta,0.205637,0.048452,0.827029,1.26E-20,0.816046,2.26E-20,0.67948
+metabolite_C52:4 TAG,avg_transfer_meta,0.249894,0.066466,0.795411,9.17E-16,0.785693,2.98E-16,0.547469
+metabolite_C52:3 TAG,avg_transfer_meta,0.203719,0.045524,0.796396,1.53E-13,0.785875,8.20E-13,0.598559
+metabolite_C52:2 TAG,avg_transfer_meta,0.242743,0.064571,0.797682,2.25E-12,0.791031,3.35E-12,0.492933
+metabolite_C52:1 TAG,avg_transfer_meta,0.269565,0.082011,0.76339,2.11E-08,0.755014,4.33E-08,0.53367
+metabolite_C54:7 TAG,avg_transfer_meta,0.210524,0.053566,0.820086,2.00E-15,0.799887,4.38E-13,0.604228
+metabolite_C54:6 TAG,avg_transfer_meta,0.217055,0.054302,0.819651,5.03E-17,0.794697,8.83E-14,0.655357
+metabolite_glucuronate,avg_transfer_meta,0.173751,0.032823,0.798302,1.38E-13,0.774228,1.16E-12,0.493693
+metabolite_C54:5 TAG,avg_transfer_meta,0.295641,0.090484,0.794632,6.09E-14,0.784259,2.03E-12,0.532135
+metabolite_C54:4 TAG,avg_transfer_meta,0.20715,0.051733,0.80641,2.48E-15,0.798928,8.53E-15,0.651521
+metabolite_C54:3 TAG,avg_transfer_meta,0.225949,0.053955,0.78806,6.42E-12,0.78609,5.67E-12,0.540679
+metabolite_C54:2 TAG,avg_transfer_meta,0.271086,0.084606,0.787838,2.80E-12,0.777247,5.09E-12,0.501143
+metabolite_C54:1 TAG,avg_transfer_meta,0.289812,0.093208,0.75148,9.75E-08,0.746636,2.45E-07,0.500952
+metabolite_C56:8 TAG,avg_transfer_meta,0.207666,0.050915,0.815848,2.73E-17,0.796401,3.45E-16,0.601718
+metabolite_C56:7 TAG,avg_transfer_meta,0.249227,0.075019,0.832617,3.32E-19,0.809278,9.41E-16,0.624686
+metabolite_C56:6 TAG,avg_transfer_meta,0.24797,0.069308,0.804414,8.39E-17,0.797921,7.68E-14,0.604933
+metabolite_C56:5 TAG,avg_transfer_meta,0.320894,0.112687,0.807385,4.30E-17,0.798261,8.04E-15,0.518465
+metabolite_C56:4 TAG,avg_transfer_meta,0.290362,0.099523,0.811749,2.34E-16,0.80195,5.15E-14,0.475459
+metabolite_glutathione oxidized,avg_transfer_meta,0.238174,0.066385,0.768791,2.23E-08,0.753666,3.99E-08,0.507355
+metabolite_C56:3 TAG,avg_transfer_meta,0.223978,0.05831,0.796084,4.17E-10,0.785546,8.73E-10,0.611133
+metabolite_C56:2 TAG,avg_transfer_meta,0.271688,0.08121,0.78435,2.08E-09,0.779773,1.78E-09,0.556385
+metabolite_C58:8 TAG,avg_transfer_meta,0.326821,0.137402,0.831149,5.82E-17,0.814523,1.57E-14,0.513629
+metabolite_C58:7 TAG,avg_transfer_meta,0.30691,0.120491,0.807258,3.16E-08,0.797255,1.87E-07,0.638317
+metabolite_C58:6 TAG,avg_transfer_meta,0.316499,0.118362,0.816568,1.46E-15,0.806819,3.76E-14,0.573728
+metabolite_glutathione reduced,avg_transfer_meta,0.199136,0.045207,0.75712,9.84E-07,0.748348,2.97E-07,0.55222
+metabolite_GMP,avg_transfer_meta,0.288723,0.100904,0.765962,6.96E-11,0.710353,1.60E-09,0.528422
+metabolite_guanosine,avg_transfer_meta,0.265971,0.08377,0.71366,1.06E-03,0.729974,3.24E-05,0.432234
+metabolite_hippurate,avg_transfer_meta,0.205111,0.051478,0.788356,2.04E-09,0.74823,1.28E-09,0.554849
+metabolite_hypoxanthine,avg_transfer_meta,0.47358,0.246749,0.726699,3.49E-04,0.726954,4.10E-04,0.377507
+metabolite_inosine,avg_transfer_meta,0.225278,0.058863,0.722122,2.09E-02,0.711762,7.61E-03,0.473233
+metabolite_kynurenine,avg_transfer_meta,0.315656,0.114743,0.739044,1.10E-03,0.701938,1.07E-03,0.415949
+metabolite_lactate,avg_transfer_meta,0.155416,0.027968,0.776674,1.58E-09,0.743203,2.57E-09,0.597411
+metabolite_alpha-glycerophosphate,avg_transfer_meta,0.315404,0.115979,0.808824,5.33E-10,0.800781,5.57E-12,0.576303
+metabolite_lactose,avg_transfer_meta,0.321496,0.11812,0.786563,4.21E-11,0.761303,3.33E-12,0.542645
+metabolite_malate,avg_transfer_meta,0.182627,0.040742,0.735545,3.99E-05,0.723028,1.61E-07,0.422614
+metabolite_NAD,avg_transfer_meta,0.183169,0.040995,0.734101,3.63E-05,0.720913,4.93E-07,0.553299
+metabolite_NADP,avg_transfer_meta,0.234449,0.062095,0.715397,1.30E-03,0.685763,1.10E-02,0.478374
+metabolite_oxalate,avg_transfer_meta,0.126922,0.018056,0.836338,5.64E-24,0.792283,3.08E-18,0.67527
+metabolite_pantothenate,avg_transfer_meta,0.227332,0.062098,0.769517,1.01E-07,0.752181,1.31E-08,0.590872
+metabolite_PEP,avg_transfer_meta,0.230532,0.056331,0.743294,5.45E-07,0.745444,1.18E-07,0.478017
+metabolite_ribose-5-P/ribulose5-P,avg_transfer_meta,0.228234,0.062733,0.770569,1.19E-06,0.771026,1.25E-07,0.58132
+metabolite_sorbitol,avg_transfer_meta,0.204923,0.049035,0.804915,5.42E-13,0.770189,3.05E-14,0.608969
+metabolite_succinate/methylmalonate,avg_transfer_meta,0.1616,0.030293,0.75029,3.51E-06,0.717213,1.24E-05,0.540837
+metabolite_4-pyridoxate,avg_transfer_meta,0.231159,0.064437,0.6862,1.09E-02,0.682911,1.04E-02,0.439029
+metabolite_sucrose,avg_transfer_meta,0.317793,0.107747,0.637712,3.64E-03,0.585129,1.79E-03,0.343224
+metabolite_thymine,avg_transfer_meta,0.227672,0.063828,0.728353,1.03E-05,0.729968,7.97E-06,0.453645
+metabolite_UMP,avg_transfer_meta,0.251955,0.08115,0.843866,6.80E-19,0.771198,3.02E-13,0.694695
+metabolite_UDP-galactose/UDP-glucose,avg_transfer_meta,0.257376,0.076799,0.711043,4.80E-03,0.674036,5.80E-03,0.391319
+metabolite_uracil,avg_transfer_meta,0.203091,0.05215,0.828613,2.64E-14,0.810192,1.20E-17,0.62505
+metabolite_urate,avg_transfer_meta,0.29245,0.10581,0.764592,9.03E-08,0.731315,1.01E-07,0.545176
+metabolite_uridine,avg_transfer_meta,0.359738,0.160341,0.734048,1.86E-05,0.70144,3.72E-04,0.40076
+metabolite_xanthine,avg_transfer_meta,0.225314,0.066324,0.837862,2.84E-18,0.787202,2.93E-20,0.648867
+metabolite_taurocholate,avg_transfer_meta,0.2941,0.094783,0.700306,3.77E-03,0.684584,1.84E-03,0.347611
+metabolite_glycodeoxycholate/glycochenodeoxycholate,avg_transfer_meta,0.185852,0.039574,0.762294,2.51E-08,0.758395,1.44E-08,0.480367
+metabolite_aconitate,avg_transfer_meta,0.21116,0.050234,0.749696,1.72E-07,0.74647,4.36E-08,0.471941
+metabolite_taurodeoxycholate/taurochenodeoxycholate,avg_transfer_meta,0.607829,0.46583,0.701563,2.05E-03,0.677511,5.02E-04,0.367795
+metabolite_phosphocreatine,avg_transfer_meta,0.384673,0.174943,0.884395,2.50E-29,0.865626,2.36E-25,0.710831
+metabolite_3-methyladipate/pimelate,avg_transfer_meta,0.127909,0.019813,0.742427,2.48E-06,0.720695,6.98E-06,0.528736
+metabolite_6-phosphogluconate,avg_transfer_meta,0.320265,0.111927,0.725886,2.64E-05,0.699215,1.28E-04,0.485968
+metabolite_alpha-hydroxybutyrate,avg_transfer_meta,0.120728,0.018018,0.814018,3.58E-16,0.794494,1.01E-13,0.667575
+metabolite_2-hydroxyglutarate,avg_transfer_meta,0.222724,0.059846,0.759345,1.28E-07,0.789212,3.36E-11,0.556739
+metabolite_inositol,avg_transfer_meta,0.201639,0.045227,0.775347,5.11E-10,0.774951,1.65E-10,0.536141
+metabolite_malondialdehyde,avg_transfer_meta,0.144436,0.022066,0.685818,2.14E-04,0.672327,5.37E-04,0.445992
+metabolite_glycine,avg_transfer_meta,0.255963,0.069332,0.658513,1.44E-03,0.664814,1.68E-03,0.169305
+metabolite_alanine,avg_transfer_meta,0.228181,0.065773,0.778356,8.54E-08,0.776893,1.26E-08,0.537433
+metabolite_adenine,avg_transfer_meta,0.220477,0.057754,0.734792,2.39E-07,0.707494,9.41E-07,0.552089
+metabolite_serine,avg_transfer_meta,0.27017,0.086405,0.70498,2.48E-03,0.706813,9.23E-04,0.431324
+metabolite_threonine,avg_transfer_meta,0.242595,0.068231,0.732146,4.67E-11,0.723617,1.77E-10,0.509161
+metabolite_methionine,avg_transfer_meta,0.252309,0.073279,0.784657,2.66E-17,0.763378,1.20E-17,0.526567
+metabolite_aspartate,avg_transfer_meta,0.195439,0.04576,0.740747,7.83E-05,0.730976,4.17E-05,0.537201
+metabolite_glutamate,avg_transfer_meta,0.136595,0.021569,0.78999,4.74E-08,0.793953,4.61E-10,0.569382
+metabolite_asparagine,avg_transfer_meta,0.357173,0.149565,0.743394,1.30E-06,0.717296,2.57E-06,0.452528
+metabolite_glutamine,avg_transfer_meta,0.393837,0.171275,0.690551,6.04E-02,0.682948,7.96E-03,0.312294
+metabolite_histidine,avg_transfer_meta,0.189843,0.045483,0.825832,7.26E-17,0.80658,6.60E-18,0.672798
+metabolite_arginine,avg_transfer_meta,0.182208,0.039636,0.744207,2.86E-04,0.736847,1.68E-04,0.519361
+metabolite_lysine,avg_transfer_meta,0.255335,0.079934,0.812631,1.69E-18,0.810951,1.76E-18,0.653591
+metabolite_adipate,avg_transfer_meta,0.135757,0.02327,0.713369,5.83E-03,0.689425,2.50E-03,0.393226
+metabolite_valine,avg_transfer_meta,0.246961,0.069321,0.745734,1.05E-12,0.754,7.85E-14,0.533217
+metabolite_leucine,avg_transfer_meta,0.209605,0.047467,0.810881,6.07E-19,0.792642,1.44E-18,0.588224
+metabolite_isoleucine,avg_transfer_meta,0.257222,0.072558,0.781422,2.10E-13,0.749558,6.77E-16,0.485067
+metabolite_phenylalanine,avg_transfer_meta,0.280527,0.085524,0.791319,1.68E-17,0.790754,5.11E-19,0.542926
+metabolite_tyrosine,avg_transfer_meta,0.252031,0.070218,0.79901,1.22E-14,0.795787,3.26E-16,0.587901
+metabolite_tryptophan,avg_transfer_meta,0.246231,0.070848,0.758295,1.79E-10,0.759171,1.42E-11,0.536743
+metabolite_proline,avg_transfer_meta,0.180698,0.038551,0.745944,7.82E-07,0.732399,1.71E-06,0.408776
+metabolite_cis/trans-hydroxyproline,avg_transfer_meta,0.355772,0.155112,0.72066,6.53E-04,0.690804,5.29E-04,0.485311
+metabolite_ornithine,avg_transfer_meta,0.260943,0.078067,0.684372,3.08E-03,0.682164,2.20E-03,0.41836
+metabolite_citrulline,avg_transfer_meta,0.187886,0.042841,0.741264,5.48E-07,0.712928,1.50E-06,0.556775
+metabolite_alpha-ketoglutarate,avg_transfer_meta,0.177471,0.035279,0.756447,4.99E-06,0.734035,3.43E-05,0.498239
+metabolite_taurine,avg_transfer_meta,0.251077,0.076077,0.801524,1.60E-08,0.787841,1.04E-08,0.533987
+metabolite_5-HIAA,avg_transfer_meta,0.184017,0.039107,0.68898,9.30E-04,0.678921,3.85E-04,0.485221
+metabolite_serotonin,avg_transfer_meta,0.369605,0.150715,0.716618,6.13E-03,0.700795,7.95E-03,0.428241
+metabolite_GABA,avg_transfer_meta,0.249142,0.076464,0.825051,1.28E-13,0.819394,1.13E-13,0.692518
+metabolite_acetylglycine,avg_transfer_meta,0.168139,0.032626,0.712772,6.94E-11,0.687222,1.10E-10,0.471193
+metabolite_dimethylglycine,avg_transfer_meta,0.165272,0.031906,0.754037,2.76E-08,0.735826,9.31E-11,0.546657
+metabolite_homocysteine,avg_transfer_meta,0.305179,0.114216,0.703756,2.49E-02,0.709568,2.99E-02,0.393338
+metabolite_SDMA/ADMA,avg_transfer_meta,0.185959,0.039692,0.782139,1.95E-10,0.747786,6.77E-12,0.564859
+metabolite_NMMA,avg_transfer_meta,0.216546,0.05401,0.803941,2.21E-16,0.770735,3.54E-16,0.568658
+metabolite_allantoin,avg_transfer_meta,0.208096,0.050131,0.735934,9.74E-09,0.675115,9.85E-10,0.479847
+metabolite_AMP,avg_transfer_meta,0.245857,0.072045,0.861337,3.22E-23,0.80632,1.42E-19,0.718304
+metabolite_anthranilic acid,avg_transfer_meta,0.290793,0.097694,0.757581,1.98E-05,0.714296,1.45E-03,0.402371
+metabolite_kynurenic acid,avg_transfer_meta,0.297216,0.109852,0.833513,1.95E-22,0.781057,9.74E-19,0.648704
+metabolite_5-adenosylhomocysteine,avg_transfer_meta,0.302778,0.099695,0.731631,8.91E-06,0.713879,1.53E-04,0.33729
+metabolite_carnosine,avg_transfer_meta,0.271508,0.080709,0.793545,1.42E-16,0.756951,4.11E-19,0.483192
+metabolite_N-carbamoyl-beta-alanine,avg_transfer_meta,0.315778,0.120662,0.816955,1.08E-14,0.806927,8.39E-14,0.638397
+metabolite_thiamine,avg_transfer_meta,0.249119,0.07314,0.782982,1.88E-10,0.744909,9.90E-10,0.577488
+metabolite_niacinamide,avg_transfer_meta,0.242841,0.069171,0.757904,5.47E-08,0.757139,1.54E-07,0.543448
+metabolite_betaine,avg_transfer_meta,0.122106,0.01654,0.754721,2.77E-07,0.71717,1.29E-07,0.562111
+metabolite_choline,avg_transfer_meta,0.195336,0.046149,0.726753,4.96E-04,0.700027,2.36E-03,0.541885
+metabolite_alpha-glycerophosphocholine,avg_transfer_meta,0.270486,0.085799,0.853408,1.34E-25,0.856927,3.06E-27,0.699252
+metabolite_citrate,avg_transfer_meta,0.232721,0.0594,0.726079,1.55E-06,0.714717,9.42E-08,0.423263

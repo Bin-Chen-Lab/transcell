@@ -1,0 +1,21 @@
+Unnamed: 0,avg_transfer_gscore,RMSE_avg,MSE_avg,Pearsonr_avg,Pearsonr_pvalue_avg,Spearmanr_avg,Spearmanr_pvalue_avg,R_square_avg
+gene_effect_SMR3A,avg_transfer_gscore,0.107641,0.013604,0.707418,4.18E-02,0.691845,7.26E-02,0.44186
+gene_effect_SLC25A10,avg_transfer_gscore,0.105044,0.014894,0.698487,1.36E-01,0.681708,9.60E-02,0.467613
+gene_effect_SARNP,avg_transfer_gscore,0.124466,0.019153,0.745239,6.33E-03,0.749463,1.71E-03,0.534156
+gene_effect_MORN5,avg_transfer_gscore,0.082244,0.007953,0.718146,3.07E-02,0.676074,7.13E-02,0.479348
+gene_effect_FAS,avg_transfer_gscore,0.08412,0.008676,0.667566,1.45E-01,0.639344,1.69E-01,0.316907
+gene_effect_SLC12A2,avg_transfer_gscore,0.103853,0.013969,0.64533,7.30E-02,0.622942,8.17E-02,0.365499
+gene_effect_ZNF394,avg_transfer_gscore,0.09405,0.010163,0.67709,1.81E-01,0.672108,1.72E-01,0.473021
+gene_effect_DLX4,avg_transfer_gscore,0.084821,0.009323,0.750011,2.61E-02,0.722644,5.59E-02,0.534799
+gene_effect_BRAT1,avg_transfer_gscore,0.178214,0.043098,0.782248,5.58E-04,0.77854,1.26E-03,0.58801
+gene_effect_ZNF547,avg_transfer_gscore,0.073079,0.006377,0.675561,5.42E-02,0.645839,1.88E-01,0.465796
+gene_effect_ZNF85,avg_transfer_gscore,0.088367,0.010472,0.737078,2.38E-02,0.728639,3.86E-03,0.543697
+gene_effect_IFRD1,avg_transfer_gscore,0.088819,0.009198,0.675798,1.07E-01,0.649016,1.72E-01,0.410897
+gene_effect_KIF18B,avg_transfer_gscore,0.197196,0.047547,0.76058,3.54E-06,0.717138,1.02E-06,0.556782
+gene_effect_PAGE2,avg_transfer_gscore,0.086905,0.008766,0.659189,7.88E-03,0.632724,5.70E-02,0.388489
+gene_effect_UHRF2,avg_transfer_gscore,0.084843,0.008621,0.718818,1.83E-02,0.682404,5.66E-02,0.485936
+gene_effect_IGF2BP3,avg_transfer_gscore,0.102889,0.012623,0.692241,8.86E-02,0.684206,5.27E-02,0.365438
+gene_effect_FOXN4,avg_transfer_gscore,0.101146,0.012599,0.65426,5.77E-02,0.685561,1.58E-01,0.40442
+gene_effect_LAMTOR4,avg_transfer_gscore,0.134452,0.022388,0.720426,1.57E-02,0.719102,6.36E-03,0.50168
+gene_effect_NEFH,avg_transfer_gscore,0.088412,0.008788,0.730153,3.11E-03,0.7229,2.32E-03,0.414645
+gene_effect_SPATA33,avg_transfer_gscore,0.09376,0.009704,0.71651,7.28E-02,0.685322,8.46E-02,0.29541
