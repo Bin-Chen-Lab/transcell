@@ -23,7 +23,7 @@ cat *.out | grep 'avg_transfer_meta' > avg_transfer_meta_ks5000.csv
 ```
 
 #### Further application
-We could run the following scripts to predict the values of metabolte, gene effect score, and drug sensitivity for new cell lines.
+We could run the following scripts to predict the values of metabolte, gene effect score, and drug sensitivity for new cell lines by TransCell.
 
 Metabolite:
 ```
