@@ -19,8 +19,26 @@ nohup cat command.txt | parallel --joblog out.log -j5 &
 ```
 ```
 cat *.out | grep 'avg_transfer_meta' > avg_transfer_meta_ks5000.csv
+
 ```
 
+#### Further application
+We could run the following scripts to predict the values of metabolte, gene effect score, and drug sensitivity for new cell lines.
+
+Metabolite:
+```
+python further_application_metabolite.py
+```
+
+Gene effect score:
+```
+python further_application_gene_effect_score.py
+```
+
+Drug sensitivity:
+```
+python further_application_drug_sensitivity.py
+```
 
 #### output
 The prediction results for each individual type of feature could be found under the folders.
