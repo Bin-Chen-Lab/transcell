@@ -72,6 +72,17 @@ from tensorflow.keras import regularizers
 import tensorflow as tf
 import os
 import sys
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--feature_name', type=str)
+parser.add_argument('--new_cell_line_name', type=str)
+parser.add_argument('--dataset', type=str)
+args = parser.parse_args()
+
+feature_name = args.feature_name
+new_cell_line_name = args.new_cell_line_name
+dataset = args.dataset
 
 # mac
 data_feature = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/data/octad_cell_line_features.csv')
@@ -96,27 +107,48 @@ sensi_matrix = data_matrix.loc[:,id_sensi]
 exp = expression_matrix.dropna(axis=0)
 exp = exp.reset_index(drop=False)
 exp = exp.rename(columns = {'index' : 'Cell'})
+exp = exp[exp.Cell != 1412] ## take Cell line:1412 as a new cell line as an example
 #exp_target = exp.loc[:, top_lis_new] ## pull out 5000 top-varying genes
 #exp.insert(0, 'Cell', exp['Cell'])
 sensi_names = sensi_matrix.columns.to_list()
 
-## take top ks 520
-ks = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/output/ks2sample_TCGA.padj.csv')
+#ss = pd.DataFrame({"feature_name":pd.Series(sensi_names)})
+#ss.to_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/drug_sensitivity/name_sensi.csv')
+
+## take top ks 5000
+ks = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/drug_sensitivity/ks2sample_TCGA.padj.csv')
 #ks = pd.read_csv('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/data/ks2sample_TCGA.padj.csv')
 lis_use = ks['genes'][0:5000]
 exp_target = exp.loc[:, lis_use]
 exp_target.insert(0, 'Cell', exp['Cell'])
+lis_use_df = pd.DataFrame(lis_use)
 
-json_file = open('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks5000_2step.json', 'r')
+##### Mapping new data to 5000 KS features
+data = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/drug_sensitivity/' + dataset + '.csv')
+data = data[["Unnamed: 0", new_cell_line_name]]
+gene = data['Unnamed: 0']
+
+lis=[]
+for i in range(len(gene)):
+   tmp = 'expression_' + gene[i]
+   lis.append(tmp)
+
+lis_s = pd.Series(lis)
+data.insert(0, 'genes', lis_s)
+data = data.drop(['Unnamed: 0'], axis=1)
+data_map = pd.merge(data, lis_use_df, on='genes')
+new_input = pd.DataFrame(data_map[new_cell_line_name]).T
+
+json_file = open('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/drug_sensitivity/encoder_ks5000_2step.json', 'r')
 #json_file = open('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/encoder/encoder_ks5000_2step.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
-loaded_model.load_weights("/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks5000_2step.h5")
+loaded_model.load_weights("/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/drug_sensitivity/encoder_ks5000_2step.h5")
 #loaded_model.load_weights('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/encoder/encoder_ks5000_2step.h5')
 
-y = sensi_matrix['sensitivity_BRD-K46211610-003-26-7::2.5::HTS']
+y = sensi_matrix[feature_name]
 y_na = list(np.where(np.isnan(y))[0])
 y = y.drop(y_na)
 y = y.reset_index(drop=False)
@@ -124,12 +156,8 @@ y = y.rename(columns = {'index' : 'Cell'})
 nona_matrix = pd.merge(exp_target, y, on = 'Cell')
 exp_x = nona_matrix.iloc[:, 1:5001]
 
-### Pretend new cell line
-new_input = exp_x.iloc[-1:]
-new_Y = nona_matrix['sensitivity_BRD-K46211610-003-26-7::2.5::HTS'][561] ## actual: 0.420
-
-X = exp_x[:561].values
-Y = nona_matrix['sensitivity_BRD-K46211610-003-26-7::2.5::HTS'][:561].values
+X = exp_x.values
+Y = nona_matrix[feature_name].values
 
 from numpy.random import seed
 seed(10)
@@ -176,7 +204,7 @@ def TransCell_drug_sensitivity_model(X, Y, new_input):
     return pre1
 
 pre1 = TransCell_drug_sensitivity_model(X, Y, new_input)
-print('New cell line prediction results for sensitivity_BRD-K46211610-003-26-7::2.5::HTS: %.3f' % pre1.tolist()[0][0])
+print('New cell line (%s) prediction result for %s: %.3f' % (new_cell_line_name, feature_name, pre1.tolist()[0][0]))
 
 
 

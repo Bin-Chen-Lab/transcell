@@ -59,7 +59,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import RandomizedSearchCV
 from keras.layers.advanced_activations import LeakyReLU
 import random
-import xgboost as xgb
 from sklearn.feature_selection import SelectFromModel
 from scipy.stats import iqr
 from keras.layers.normalization import BatchNormalization
@@ -68,6 +67,17 @@ from sklearn.preprocessing import normalize
 from keras.layers import LeakyReLU
 from keras.layers import BatchNormalization
 from sklearn.preprocessing import MinMaxScaler
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--feature_name', type=str)
+parser.add_argument('--new_cell_line_name', type=str)
+parser.add_argument('--dataset', type=str)
+args = parser.parse_args()
+
+feature_name = args.feature_name
+new_cell_line_name = args.new_cell_line_name
+dataset = args.dataset
 
 # mac
 data_feature = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/data/octad_cell_line_features.csv')
@@ -101,25 +111,50 @@ exp_x = nona_matrix.loc[:, id_expression]
 meta_y = nona_matrix.loc[:, id_metabolite]
 meta_names = meta_y.columns.to_list()
 
-ks = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/output/ks2sample_TCGA.padj.csv')
+#mm = pd.DataFrame({"feature_name": pd.Series(meta_names)})
+#mm.to_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/metabolite/name_meta.csv')
+
+ks = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/metabolite/ks2sample_TCGA.padj.csv')
 #ks = pd.read_csv('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/data/ks2sample_TCGA.padj.csv')
 lis_use = ks['genes'][0:5000]
-exp_target = exp_x.loc[:, lis_use]
+exp_target = exp_x.loc[:, lis_use] ## we take the last row to be the new cell line as an example
+lis_use_df = pd.DataFrame(lis_use)
+
+
+##### Mapping new data to 5000 KS features
+data = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/metabolite/' + dataset + '.csv')
+data = data[["Unnamed: 0", new_cell_line_name]]
+gene = data['Unnamed: 0']
+
+#data = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/metabolite/exprs_newCellLine_meta.csv')
+#data = data[["Unnamed: 0", "abc"]]
+#gene = data['Unnamed: 0']
+
+lis=[]
+for i in range(len(gene)):
+   tmp = 'expression_' + gene[i]
+   lis.append(tmp)
+
+lis_s = pd.Series(lis)
+data.insert(0, 'genes', lis_s)
+data = data.drop(['Unnamed: 0'], axis=1)
+data_map = pd.merge(data, lis_use_df, on='genes')
+new_input = pd.DataFrame(data_map[new_cell_line_name]).T
 
 X = exp_target[:914]
-Y = meta_y['metabolite_2-aminoadipate'][:914]
+Y = meta_y[feature_name][:914]
 
-### Pretend new cell
-new_input = exp_target.iloc[-1:]
-new_Y = meta_y['metabolite_2-aminoadipate'][914] ## actual value = 5.941
+#### Pretend new cell
+#new_input = exp_target.iloc[-1:]
+#new_Y = meta_y['metabolite_2-aminoadipate'][914] ## actual value = 5.941
 
-json_file = open('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks5000_2step.json', 'r')
+json_file = open('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/metabolite/encoder_ks5000_2step.json', 'r')
 #json_file = open('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/encoder/encoder_ks5000_2step.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 #loaded_model.load_weights('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/encoder/encoder_ks5000_2step.h5')
-loaded_model.load_weights('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks5000_2step.h5')
+loaded_model.load_weights('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/metabolite/encoder_ks5000_2step.h5')
 
 from numpy.random import seed
 seed(4)
@@ -158,7 +193,7 @@ def TransCell_metabolite_model(X, Y, new_input):
     new_model.compile(loss='mean_squared_error', optimizer= opt)
     es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience = 30)
     history = History()
-    new_model.fit(XX, YY, epochs=100, batch_size=64, verbose=1, callbacks=[history, es], shuffle=True)
+    new_model.fit(XX, YY, validation_split=0.1, epochs=100, batch_size=64, verbose=1, callbacks=[history, es], shuffle=True)
     
     pre = new_model.predict(New_input)
     pre1 = scaler_y.inverse_transform(pre)    
@@ -166,7 +201,7 @@ def TransCell_metabolite_model(X, Y, new_input):
     return pre1
 
 pre1 = TransCell_metabolite_model(X, Y, new_input)
-print('New cell line prediction results for metabolite_2-aminoadipate: %.3f' % pre1.tolist()[0][0])
+print('New cell line (%s) prediction result for %s: %.3f' % (new_cell_line_name, feature_name, pre1.tolist()[0][0]))
 
 
 

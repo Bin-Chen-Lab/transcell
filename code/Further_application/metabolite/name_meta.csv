@@ -1,0 +1,226 @@
+,feature_name
+0,metabolite_2-aminoadipate
+1,metabolite_3-phosphoglycerate
+2,metabolite_alpha-glycerophosphate
+3,metabolite_4-pyridoxate
+4,metabolite_aconitate
+5,metabolite_adenine
+6,metabolite_adipate
+7,metabolite_alpha-ketoglutarate
+8,metabolite_AMP
+9,metabolite_citrate
+10,metabolite_isocitrate
+11,metabolite_CMP
+12,metabolite_cystathionine
+13,metabolite_cytidine
+14,metabolite_dCMP
+15,metabolite_DHAP/glyceraldehyde 3P
+16,metabolite_erythrose-4-phosphate
+17,metabolite_F1P/F6P/G1P/G6P
+18,metabolite_hexoses (HILIC neg)
+19,metabolite_fumarate/maleate/alpha-ketoisovalerate
+20,metabolite_glucuronate
+21,metabolite_glutathione oxidized
+22,metabolite_glutathione reduced
+23,metabolite_GMP
+24,metabolite_guanosine
+25,metabolite_hippurate
+26,metabolite_hypoxanthine
+27,metabolite_inosine
+28,metabolite_kynurenine
+29,metabolite_lactate
+30,metabolite_lactose
+31,metabolite_malate
+32,metabolite_NAD
+33,metabolite_NADP
+34,metabolite_oxalate
+35,metabolite_pantothenate
+36,metabolite_PEP
+37,metabolite_ribose-5-P/ribulose5-P
+38,metabolite_sorbitol
+39,metabolite_succinate/methylmalonate
+40,metabolite_sucrose
+41,metabolite_thymine
+42,metabolite_UMP
+43,metabolite_UDP-galactose/UDP-glucose
+44,metabolite_uracil
+45,metabolite_urate
+46,metabolite_uridine
+47,metabolite_xanthine
+48,metabolite_taurocholate
+49,metabolite_glycodeoxycholate/glycochenodeoxycholate
+50,metabolite_taurodeoxycholate/taurochenodeoxycholate
+51,metabolite_phosphocreatine
+52,metabolite_3-methyladipate/pimelate
+53,metabolite_6-phosphogluconate
+54,metabolite_alpha-hydroxybutyrate
+55,metabolite_2-hydroxyglutarate
+56,metabolite_inositol
+57,metabolite_malondialdehyde
+58,metabolite_glycine
+59,metabolite_alanine
+60,metabolite_serine
+61,metabolite_threonine
+62,metabolite_methionine
+63,metabolite_aspartate
+64,metabolite_glutamate
+65,metabolite_asparagine
+66,metabolite_glutamine
+67,metabolite_histidine
+68,metabolite_arginine
+69,metabolite_lysine
+70,metabolite_valine
+71,metabolite_leucine
+72,metabolite_isoleucine
+73,metabolite_phenylalanine
+74,metabolite_tyrosine
+75,metabolite_tryptophan
+76,metabolite_proline
+77,metabolite_cis/trans-hydroxyproline
+78,metabolite_ornithine
+79,metabolite_citrulline
+80,metabolite_taurine
+81,metabolite_5-HIAA
+82,metabolite_serotonin
+83,metabolite_GABA
+84,metabolite_acetylglycine
+85,metabolite_dimethylglycine
+86,metabolite_homocysteine
+87,metabolite_SDMA/ADMA
+88,metabolite_NMMA
+89,metabolite_allantoin
+90,metabolite_anthranilic acid
+91,metabolite_kynurenic acid
+92,metabolite_5-adenosylhomocysteine
+93,metabolite_carnosine
+94,metabolite_N-carbamoyl-beta-alanine
+95,metabolite_thiamine
+96,metabolite_niacinamide
+97,metabolite_betaine
+98,metabolite_choline
+99,metabolite_alpha-glycerophosphocholine
+100,metabolite_acetylcholine
+101,metabolite_creatine
+102,metabolite_creatinine
+103,metabolite_thyroxine
+104,metabolite_trimethylamine-N-oxide
+105,metabolite_hexoses (HILIC pos)
+106,metabolite_adenosine
+107,metabolite_thymidine
+108,metabolite_xanthosine
+109,metabolite_2-deoxyadenosine
+110,metabolite_2-deoxycytidine
+111,metabolite_cAMP
+112,metabolite_cotinine
+113,metabolite_pipecolic acid
+114,metabolite_pyroglutamic acid
+115,metabolite_1-methylnicotinamide
+116,metabolite_butyrobetaine
+117,metabolite_putrescine
+118,metabolite_methionine sulfoxide
+119,metabolite_carnitine
+120,metabolite_acetylcarnitine
+121,metabolite_propionylcarnitine
+122,metabolite_malonylcarnitine
+123,metabolite_butyrylcarnitine/isobutyrylcarnitine
+124,metabolite_valerylcarnitine/isovalerylcarnitine/2-methylbutyroylcarnitine
+125,metabolite_hexanoylcarnitine
+126,metabolite_heptanoylcarnitine
+127,metabolite_lauroylcarnitine
+128,metabolite_myristoylcarnitine
+129,metabolite_palmitoylcarnitine
+130,metabolite_stearoylcarnitine
+131,metabolite_oleylcarnitine
+132,metabolite_arachidonyl_carnitine
+133,metabolite_sarcosine
+134,metabolite_beta-alanine
+135,metabolite_anserine
+136,metabolite_C14:0 LPC
+137,metabolite_C16:1 LPC
+138,metabolite_C16:0 LPC
+139,metabolite_C18:2 LPC
+140,metabolite_C18:1 LPC
+141,metabolite_C18:0 LPC
+142,metabolite_C20:4 LPC
+143,metabolite_C20:3 LPC
+144,metabolite_C22:6 LPC
+145,metabolite_C16:0 LPE
+146,metabolite_C18:1 LPE
+147,metabolite_C18:0 LPE
+148,metabolite_C20:4 LPE
+149,metabolite_C22:6 LPE
+150,metabolite_C32:2 PC
+151,metabolite_C32:1 PC
+152,metabolite_C32:0 PC
+153,metabolite_C34:4 PC
+154,metabolite_C34:3 PC
+155,metabolite_C34:2 PC
+156,metabolite_C34:1 PC
+157,metabolite_C36:4 PC-A
+158,metabolite_C36:4 PC-B
+159,metabolite_C36:3 PC
+160,metabolite_C36:2 PC
+161,metabolite_C36:1 PC
+162,metabolite_C38:6 PC
+163,metabolite_C38:5 PC
+164,metabolite_C38:4 PC
+165,metabolite_C38:2 PC
+166,metabolite_C40:6 PC
+167,metabolite_C14:0 SM
+168,metabolite_C16:1 SM
+169,metabolite_C16:0 SM
+170,metabolite_C18:2 SM
+171,metabolite_C18:1 SM
+172,metabolite_C18:0 SM
+173,metabolite_C22:1 SM
+174,metabolite_C22:0 SM
+175,metabolite_C24:1 SM
+176,metabolite_C24:0 SM
+177,metabolite_C34:2 DAG
+178,metabolite_C34:1 DAG
+179,metabolite_C36:2 DAG
+180,metabolite_C36:1 DAG
+181,metabolite_C14:0 CE
+182,metabolite_C16:1 CE
+183,metabolite_C16:0 CE
+184,metabolite_C18:3 CE
+185,metabolite_C18:2 CE
+186,metabolite_C18:1 CE
+187,metabolite_C18:0 CE
+188,metabolite_C20:5 CE
+189,metabolite_C20:4 CE
+190,metabolite_C20:3 CE
+191,metabolite_C22:6 CE
+192,metabolite_C46:2 TAG
+193,metabolite_C46:1 TAG
+194,metabolite_C46:0 TAG
+195,metabolite_C48:3 TAG
+196,metabolite_C48:2 TAG
+197,metabolite_C48:1 TAG
+198,metabolite_C48:0 TAG
+199,metabolite_C50:3 TAG
+200,metabolite_C50:2 TAG
+201,metabolite_C50:1 TAG
+202,metabolite_C50:0 TAG
+203,metabolite_C52:5 TAG
+204,metabolite_C52:4 TAG
+205,metabolite_C52:3 TAG
+206,metabolite_C52:2 TAG
+207,metabolite_C52:1 TAG
+208,metabolite_C54:7 TAG
+209,metabolite_C54:6 TAG
+210,metabolite_C54:5 TAG
+211,metabolite_C54:4 TAG
+212,metabolite_C54:3 TAG
+213,metabolite_C54:2 TAG
+214,metabolite_C54:1 TAG
+215,metabolite_C56:8 TAG
+216,metabolite_C56:7 TAG
+217,metabolite_C56:6 TAG
+218,metabolite_C56:5 TAG
+219,metabolite_C56:4 TAG
+220,metabolite_C56:3 TAG
+221,metabolite_C56:2 TAG
+222,metabolite_C58:8 TAG
+223,metabolite_C58:7 TAG
+224,metabolite_C58:6 TAG

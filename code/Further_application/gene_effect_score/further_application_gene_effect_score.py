@@ -69,6 +69,17 @@ from keras.layers import BatchNormalization
 from sklearn.preprocessing import MinMaxScaler
 import os
 import sys
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--feature_name', type=str)
+parser.add_argument('--new_cell_line_name', type=str)
+parser.add_argument('--dataset', type=str)
+args = parser.parse_args()
+
+feature_name = args.feature_name
+new_cell_line_name = args.new_cell_line_name
+dataset = args.dataset
 
 # mac
 data_feature = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/data/octad_cell_line_features.csv')
@@ -100,27 +111,47 @@ exp_x = nona_matrix.loc[:, id_expression]
 effect_y = nona_matrix.loc[:, id_geneeffect]
 effect_names = effect_y.columns.to_list()
 
+#ee = pd.DataFrame({"feature_name": pd.Series(effect_names)})
+#ee.to_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/gene_effect_score/name_gscore.csv')
+
 ## take top ks 5000
-ks = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/output/ks2sample_TCGA.padj.csv')
+ks = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/gene_effect_score/ks2sample_TCGA.padj.csv')
 lis_use = ks['genes'][0:5000]
-exp_target = exp_x.loc[:, lis_use]
+exp_target = exp_x.loc[:, lis_use] ## we take the last row to be the new cell line as an example
+lis_use_df = pd.DataFrame(lis_use)
+
+##### Mapping new data to 5000 KS features
+data = pd.read_csv('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/gene_effect_score/' + dataset + '.csv')
+data = data[["Unnamed: 0", new_cell_line_name]]
+gene = data['Unnamed: 0']
+
+lis=[]
+for i in range(len(gene)):
+   tmp = 'expression_' + gene[i]
+   lis.append(tmp)
+
+lis_s = pd.Series(lis)
+data.insert(0, 'genes', lis_s)
+data = data.drop(['Unnamed: 0'], axis=1)
+data_map = pd.merge(data, lis_use_df, on='genes')
+new_input = pd.DataFrame(data_map[new_cell_line_name]).T
 
 X = exp_target[:577]
-Y = effect_y['gene_effect_CLDN24'][:577]
+Y = effect_y[feature_name][:577]
 
-### Pretend new cell
-new_input = exp_target.iloc[-1:]
-new_Y = effect_y['gene_effect_CLDN24'][577] ## actual value = -0.018
+#### Pretend new cell
+#new_input = exp_target.iloc[-1:]
+#new_Y = effect_y['gene_effect_CLDN24'][577] ## actual value = -0.018
 
 
 ## load pre-trained model
-json_file = open('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks5000_2step.json', 'r')
+json_file = open('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/gene_effect_score/encoder_ks5000_2step.json', 'r')
 #json_file = open('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks520_2step.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
-loaded_model.load_weights('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks5000_2step.h5')
+loaded_model.load_weights('/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/Further_application/gene_effect_score/encoder_ks5000_2step.h5')
 #loaded_model.load_weights("/Users/shanjuyeh/Desktop/Project/GeneExp_prediction/code/encoder/encoder_ks520_2step.h5")
 
 from numpy.random import seed
@@ -167,8 +198,7 @@ def TransCell_gene_effect_score_model(X, Y, new_input):
     return pre1
 
 pre1 = TransCell_gene_effect_score_model(X, Y, new_input)
-print('New cell line prediction results for gene_effect_CLDN24: %.3f' % pre1.tolist()[0][0])
-
+print('New cell line (%s) prediction result for %s: %.3f' % (new_cell_line_name, feature_name, pre1.tolist()[0][0]))
 
 
 
