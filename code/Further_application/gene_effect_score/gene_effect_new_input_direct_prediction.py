@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+#This code uses previously saved 5-fold validation model weights in training to make direct prediction (re-training not required)
+
 import pandas as pd
 import numpy as np
 import csv
@@ -71,15 +73,6 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 name = ' '.join(sys.argv[1:])
 print("Processing %s" % name)
 
-# # load OCTAD
-# data_feature = pd.read_csv('F:\Project\GeneExp_prediction\data\octad_cell_line_features.csv')
-# data_meta = pd.read_csv('F:\Project\GeneExp_prediction\data\octad_cell_line_meta.csv')
-# data_matrix = pd.read_hdf('F:\Project\GeneExp_prediction\data\data_matrix.h5', 'df')
-
-# # load external pediatric data
-# data_ped = pd.read_csv('F:\Project\GeneExp_prediction\data\Pediatric_Solid_Tumor\data\PediatricSolidBrainTumorSubset_DepMap_20Q1_CCLE_expression.csv')
-# meta_ped = pd.read_csv('F:\Project\GeneExp_prediction\data\Pediatric_Solid_Tumor\data\PediatricSolidBrainTumorSubset_DepMap_20Q1_sample_info.csv')
-# meta_ped = meta_ped[['DepMap_ID', 'stripped_cell_line_name']]
 
 # load OCTAD server
 data_feature = pd.read_csv('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/protein_predict/data/octad_cell_line_features.csv')
@@ -166,7 +159,6 @@ loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
-#loaded_model.load_weights('F:\Project\GeneExp_prediction\data\external_MCF7\code\encoder_ks5000_2step.h5')
 loaded_model.load_weights('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/encoder/encoder_ks5000_2step.h5')
 
 from numpy.random import seed
@@ -212,7 +204,7 @@ def transfer_evaluate_model(x_train, y_train, x_test, y_test, new_input, y_ext):
     es = EarlyStopping(monitor='val_loss', mode='min', verbose=0, patience = 30)
     history = History()
     os.chdir('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/RuoqiaoChen/DepMap_Public_20q1_Pediatric_Solid_Tumor_Subset/all_model_weights')
-    new_model.load_weights(name+'_'+str(count)+'model_weights.h5')
+    new_model.load_weights(name+'_'+str(count)+'model_weights.h5')#load saved 2000 models
     
     pre = new_model.predict(x_ext)
     pre1 = scaler_y.inverse_transform(pre)
@@ -239,7 +231,6 @@ def transfer_evaluate_model(x_train, y_train, x_test, y_test, new_input, y_ext):
     return [pre1, total_1]
 
 methods = ['transfer']
-# name = 'sensitivity_BRD-A00147595-001-01-5::2.5::HTS'
 y_ext = gene_effect_true[name]
 
 
