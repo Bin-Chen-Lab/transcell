@@ -266,30 +266,7 @@ for method in methods:
        p_std1.to_csv(name + 'std_compare_with_true.csv', header=None)
 
 
-       
-       # p_std = list(np.std(res, axis=0))
-       # print("%s,avg_transfer_sensi,%f,%f,%f,%e,%f,%e,%f\n" % (name, p_avg[0], p_avg[1], p_avg[2],p_avg[3], p_avg[4], p_avg[5], p_avg[6]))
-       # print("%s,std_transfer_sensi,%f,%f,%f,%f,%f,%f,%f\n" % (name, p_std[0], p_std[1], p_std[2],p_std[3], p_std[4], p_std[5], p_std[6]))
-
-
-
-
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
