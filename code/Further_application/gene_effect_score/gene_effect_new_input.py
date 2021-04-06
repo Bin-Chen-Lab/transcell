@@ -157,7 +157,6 @@ loaded_model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(loaded_model_json)
 # load weights into new model
-#loaded_model.load_weights('F:\Project\GeneExp_prediction\data\external_MCF7\code\encoder_ks5000_2step.h5')
 loaded_model.load_weights('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/encoder/encoder_ks5000_2step.h5')
 
 from numpy.random import seed
