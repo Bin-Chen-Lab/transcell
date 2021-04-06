@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+#This code combines prediction with training
+
 import pandas as pd
 import numpy as np
 import csv
@@ -83,9 +85,7 @@ meta_ped = pd.read_csv('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V
 
 types = list(set(data_feature['type']))
 cell_line = data_matrix[['Unnamed: 0']]
-# pediatric_cellLine = pd.Series(data_ped.index)
-# pediatric_cellLine_df = pd.DataFrame(pediatric_cellLine)
-# pediatric_cellLine_df.to_csv('F:\Project\GeneExp_prediction\data\Pediatric_Solid_Tumor\code\pediatric_cellLine.csv')
+
 
 # Take expression matrix
 id_expression = data_feature.loc[data_feature['type'] == 'expression'].id
