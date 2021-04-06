@@ -125,7 +125,7 @@ new_col = pd.Series(new_col)
 data_ped.columns = new_col
 ped_col = pd.DataFrame({'genes':new_col})
 
-#import gene effect score true data
+#import true gene effect score data
 gene_effect_true = pd.read_csv('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/RuoqiaoChen/DepMap_Public_20q1_Pediatric_Solid_Tumor_Subset/new_true_gscore.csv')
 gene_effect_true = gene_effect_true.set_index('Unnamed: 0')
 ext_used = pd.merge(data_ped, gene_effect_true, right_index = True, left_index = True)
@@ -149,7 +149,6 @@ gene_effect_true_col = pd.DataFrame({'genes':new_col})
 ks = pd.read_csv('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/data/ks2sample_TCGA.padj.csv')
 lis_use = ks['genes'][0:5000]
 exp_target = exp_x.loc[:, lis_use]
-#data_map = pd.merge(lis_use_df, ped_col, on='genes') ### pediatric data genes all map 5000
 new_input = data_ped.loc[:, lis_use]
 
 #json_file = open('F:\Project\GeneExp_prediction\data\external_MCF7\code\encoder_ks5000_2step.json', 'r')
@@ -228,7 +227,7 @@ def transfer_evaluate_model(x_train, y_train, x_test, y_test, new_input, y_ext):
     total_1 = [rmse, mse, Pearsonr, Pearsonr_pvalue,  Spearmanr, Spearmanr_pvalue,  r_square]
 
     os.chdir('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/RuoqiaoChen/DepMap_Public_20q1_Pediatric_Solid_Tumor_Subset/all_model_weights')
-    new_model.save_weights(name+'_'+str(count)+'model_weights.h5')
+    new_model.save_weights(name+'_'+str(count)+'model_weights.h5')#save models
     
     
     return [pre1, total_1]
