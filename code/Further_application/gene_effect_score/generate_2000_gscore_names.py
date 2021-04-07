@@ -8,7 +8,7 @@ gene_effect_name = gene_effect_name['gscore_name']
 j = 0
 
 for i in gene_effect_name:
-    print("gene_effect_new_input.py %s > %d.out" % (i,j) )
+    print("python gene_effect_new_input.py %s > %d.out" % (i,j) )
     j = j + 1
 
 
