@@ -145,13 +145,11 @@ gene_effect_true_col = pd.DataFrame({'genes':new_col})
 
 
 ## take top ks 5000
-#ks = pd.read_csv('F:\Project\GeneExp_prediction\data\external_MCF7\code\ks2sample_TCGA.padj.csv')
 ks = pd.read_csv('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/data/ks2sample_TCGA.padj.csv')
 lis_use = ks['genes'][0:5000]
 exp_target = exp_x.loc[:, lis_use]
 new_input = data_ped.loc[:, lis_use]
 
-#json_file = open('F:\Project\GeneExp_prediction\data\external_MCF7\code\encoder_ks5000_2step.json', 'r')
 json_file = open('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/DL_yeh/GeneExp_prediction/encoder/encoder_ks5000_2step.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
@@ -163,8 +161,8 @@ from numpy.random import seed
 seed(6)
 from tensorflow import set_random_seed
 set_random_seed(6)
-# from tensorflow import set_random_seed
-# set_random_seed(10)
+
+
 def transfer_evaluate_model(x_train, y_train, x_test, y_test, new_input, y_ext):
 
     scaler_x = MinMaxScaler(feature_range=(0, 1))
