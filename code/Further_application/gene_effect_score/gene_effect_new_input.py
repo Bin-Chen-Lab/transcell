@@ -254,7 +254,7 @@ for method in methods:
        res = np.hstack((out[0], out[1], out[2], out[3], out[4]))
        p_avg = pd.DataFrame({name : np.mean(res, axis=1)})
        output_T = p_avg.T
-       os.chdir('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/RuoqiaoChen/DepMap_Public_20q1_Pediatric_Solid_Tumor_Subset/prediction_results')
+       os.chdir('/home/ubuntu/chenlab_deeplearning/chenlab_deeplearning_V2/RuoqiaoChen/DepMap_Public_20q1_Pediatric_Solid_Tumor_Subset/new_prediction')
        output_T.to_csv(name + '.csv', header=None)
        res1 = np.array(out1)
        p_avg1 = pd.DataFrame(list(np.mean(res1, axis=0)))
